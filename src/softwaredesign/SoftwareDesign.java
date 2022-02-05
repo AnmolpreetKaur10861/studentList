@@ -19,8 +19,8 @@ public class SoftwareDesign {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner input = new Scanner(System.in);
-        //CHANGE THE ARRAY 5
-        Student[] students = new Student[5];
+        //CHANGE THE ARRAY SIZE
+        Student[] students = new Student[4];
         
         for (int i = 0; i < students.length; i++) {
             System.out.println("Enter the name for student " + (i + 1));
